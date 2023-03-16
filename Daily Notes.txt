@@ -1,0 +1,57 @@
+
+HTML:
+=====
+
+
+website :webpages-->static and dynamic 
+
+
+html5(2011)
+1993 tim berner lee
+html 4
+
+Hyper text markup language 
+
+		mark up--><> </>
+
+pre defined 
+.java,.css,py.....
+welcome to html
+
+
+welcome.html  IDE-->vscode,eclipse,....
+
+<!doctype html>
+<html>
+<head>
+<title>Welcome Page</title>
+<!-- include other html files,css,js,.... -->
+</head>
+
+<body>
+
+<h1>welcome to HTML  </h1>
+
+</body>
+
+</html>
+
+
+browser-->v8 engine -->DOM TREE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
