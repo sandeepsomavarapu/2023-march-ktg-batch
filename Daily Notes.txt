@@ -41,17 +41,120 @@ browser-->v8 engine -->DOM TREE
 
 
 
+	Form TAGS:
+	==========
+
+	<form name="login">
+	<input type="text" name="uname"></input>
+	<input type="password" name="uname"></input>
+	
+	</form>
+	
+
+CSS:3
+=====
+styles to the html page 
 
 
+	3 ways 
+	
+	1)inline css
+	2)internal css
+	3)external css-->.css   <link rel="stylesheet" href="">
+	
+	
+	internal 
+	css syntax:
+			selector{propname1:provalue;propname2:provalue....}
+	
+	
+	
+	selector
+	
+			1)element selector
+			2)group selector
+			3)all selector  *
+			4)id selector   #
+			5)class selector .
+	
+	
+	Css properties
+	
+HTML-->
+CSS-->
+JS--> 	dynamic
+		front end validations			mobile :  pwd   cpwd
+		change html content
+		 change style 
+
+		dynamic typed programming 
+		java :static typed programming language
+		
+		
+		var a=123;
+		var b="xyz"
+		
+				local variables  :inside the function
+				global variables :outside the function
+		
+		functions:
+		==========
+		function addOfTwo()
+		{
+		
+		
+		}
+		
+		addOfTwo();
+		
+		
+		html
+		
+			<script>
+			var  name="welcome"
+			alert(name);
+			document.write("welcome to javascript")
+			console.log("welcome to html from console")
+			</script>
+		
+		
+		2 ways
+		
+			internal
+			<body>
+			<script>
+			
+			
+			</script>
+			
+			
+			external 
+		
+		
+		myscript.js
+
+		<head>
+		<script src="myscript.js"/>
+		</head>
 
 
+		
+		var input=document.formname.fieldname.value
+		
+		
+		var input=document.getElementById("idname")
+	
+	Arrays:
+	=======
+	var name="ktg";
+		name="capgemini"
+				
+		var names[]={"ktg","capgemini","accenture"}
 
+			
+				index-->0
 
-
-
-
-
-
+			names[0]
 
 
 
