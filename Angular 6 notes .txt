@@ -579,6 +579,7 @@ Observale need a subscribe
 
 
 Angular provides lots of features and ready-to-use services which allow seamless development of awesome web application.
+
 And protecting routes with Guards are one of the important and useful feature.
 
 
@@ -590,3 +591,27 @@ Fake Rest API
 
 npm install json-server -g
 
+
+
+
+export class Employee{
+eid:number=123;
+ename:string="mahesh";
+
+}
+
+JSON
+
+	{
+	"eid":123
+	"ename":"mahesh"...
+							service class
+	}					HttpClient-->GET,PUT,POST,DELETE
+	
+		JSON-server 					Angular Rest API
+
+		java							add update delete feta...
+
+webservices:	
+		SOAP 		REST
+		xml			XML,JSON,PT,JS,HTML			
