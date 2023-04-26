@@ -60,7 +60,7 @@ styles to the html page
 	
 	1)inline css
 	2)internal css
-	3)external css-->.css   <link rel="stylesheet" href="">
+	3)external css-->.css   <link rel="stylesheet" href="bootstrap.css">
 	
 	
 	internal 
@@ -142,7 +142,7 @@ JS--> 	dynamic
 		var input=document.formname.fieldname.value
 		
 		
-		var input=document.getElementById("idname")
+		var input=document.getElementById("idname").value
 	
 	Arrays:
 	=======
@@ -155,6 +155,187 @@ JS--> 	dynamic
 				index-->0
 
 			names[0]
+
+
+Front end validations:
+======================
+bootstrap
+
+
+TS:
+===
+	*Static typed programming language
+
+
+		var a=123;
+		
+			a="sandeep"
+			
+			function add(a,b)
+			{
+			a+b
+			}
+		
+			add(12,13)
+			add('b','a')
+		TS=JS+Type
+
+
+
+Angular:
+===========
+
+java script framework
+
+MPA
+	SPA 
+
+MVC :Model View Controller
+
+
+Employee-->id,name,salary
+
+		model--->view--->controller
+				 html
+
+
+html-view,css,ts-->model
+
+
+npm install -g @angular/cli
+
+ng version
+ng new projectname ----->root component (app)--->html,css,ts,spec.ts
+
+
+
+JSON:
+	{
+	
+	"eid":123,
+	"ename":"sandeep"
+	
+	
+	
+	}
+	
+	URLS:
+	======
+@Component({
+  selector: 'register',
+  templateUrl: './register.component.html',
+  styleUrls: ['./register.component.css']
+})
+
+	With out URLS:
+	==============
+@Component({
+  selector: 'register',
+  template: `
+  <h1>Welcome Registration Page</h1>
+  
+  `,
+  styles: [`
+  h1{color:red}
+  
+  `]
+})
+
+PIPE:
+=====
+ng g p pipename
+
+predefined 
+
+custom pipe
+
+		"|"
+
+forms:
+======
+template driven forms	:html
+
+model driven forms
+
+
+AuthGuards
+-------------
+
+
+
+
+
+
+
+Services:
+=========
+
+
+
+
+Java :
+========
+
+
+Language:
+		
+		english-->communication with human
+
+Programming Language:
+=====================
+		communication with machine
+
+
+			POP					     		OOP
+B,C,BCPL,PASCAL,COBOL,PHOTON.....			c++,java,python,.net,lisp,smalltalk...
+
+
+						1)performance   		inheritance, polymorphisam
+						
+						2)security				abstraction,encapsulation
+
+
+Why Java ?  ->OAK--coffeebean
+
+			1996 jdk 1.0  -->sun micro system -->oracle corporation -->james gosling
+			
+			2023 jdk 20
+			
+			
+			
+			jse 			jee 			jme
+			
+		JAVA:												.net :micorsoft 	
+			
+				1)Platform independent   :WORA
+				
+				2)Garbage collection	 garbage collector 
+			
+			
+			
+			machine1 			machine2     machine 3
+			
+			windows 11           linux            mac
+				
+			
+			Welcome.java
+			
+		keywords -53 	-51
+			
+			https://www.javatpoint.com/javafx-how-to-install-java
+			
+			
+			
+	https://www.eclipse.org/downloads/packages/		
+			
+Eclipse IDE for Enterprise Java and Web Developers
+
+			
+
+
+
+
+
 
 
 
